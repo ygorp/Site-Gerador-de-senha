@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Barlow & family= Roboto & family= Sedgwick+Ave & display=swap');
+
 * {
   margin: 0 auto;
   padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-  background-color: #8B0000;
+  background: url(/assets/fundo\ matrix.gif);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -27,8 +29,10 @@ body {
 }
 
 .container-input span {
-  color: #000000;
-  font-size: 25px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400 bold;
 }
 
 .slider {
